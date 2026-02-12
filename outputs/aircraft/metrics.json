@@ -1,0 +1,10 @@
+{
+  "mission_type": "aircraft_waypoint_routing",
+  "num_waypoints": 3,
+  "path_waypoints": 7,
+  "total_flight_time_sec": 806.9606004298455,
+  "total_fuel_kg": 1.0490487805587991,
+  "planner": "A_star_with_TSP",
+  "all_waypoints_visited": true,
+  "constraint_violations": 0
+}

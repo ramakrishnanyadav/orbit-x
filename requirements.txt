@@ -1,0 +1,39 @@
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Optimization
+cvxpy>=1.3.0
+# Note: For MOSEK/Gurobi, users need commercial licenses
+# Default to open-source solvers: ECOS, SCS, GLPK
+
+# Geometry and spatial operations
+shapely>=2.0.0
+rtree>=1.0.0  # Spatial indexing (100x speedup for constraint checking)
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
+folium>=0.14.0
+kaleido>=0.2.1  # Static image export for Plotly
+
+# Coordinate transformations and orbital mechanics
+astropy>=5.2.0
+skyfield>=1.45
+
+# KML export
+simplekml>=1.3.6
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+hypothesis>=6.82.0  # Property-based testing
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional performance enhancements
+# numba>=0.57.0  # JIT compilation for hot loops
+# cython>=3.0.0  # C extensions for critical paths

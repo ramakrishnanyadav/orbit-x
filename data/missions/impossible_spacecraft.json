@@ -1,0 +1,22 @@
+{
+  "mission_name": "Impossible_Mission_Test",
+  "duration_days": 1,
+  "spacecraft": {
+    "battery_capacity": 5.0,
+    "min_soc": 0.8,
+    "observation_power": 100.0,
+    "downlink_power": 150.0,
+    "storage_capacity": 10.0,
+    "observation_data_size": 500.0
+  },
+  "orbit": {
+    "altitude_km": 550,
+    "inclination_deg": 53
+  },
+  "targets": [
+    {"id": "target_1", "lat": 40.7128, "lon": -74.0060, "science_value": 100}
+  ],
+  "ground_stations": [
+    {"id": "gs_1", "lat": 37.9402, "lon": -75.4663}
+  ]
+}

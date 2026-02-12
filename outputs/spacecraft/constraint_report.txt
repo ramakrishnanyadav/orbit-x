@@ -1,0 +1,13 @@
+======================================================================
+SPACECRAFT CONSTRAINT VERIFICATION REPORT
+======================================================================
+
+[PASS] Battery never below 20% SOC: min = 88.8%
+[PASS] Data storage never exceeded: max = 750.0 MB (limit: 1000 MB)
+[INFO] Observations: 213
+[INFO] Downlinks: 86
+[INFO] Data observed: 10650.0 MB
+[INFO] Data downlinked: 9985.0 MB (93.8%)
+[INFO] Unique targets observed: 7 of 8
+
+======================================================================

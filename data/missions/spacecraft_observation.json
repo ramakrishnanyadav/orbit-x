@@ -1,0 +1,165 @@
+{
+  "mission_name": "LEO_Earth_Observation_7Day",
+  "mission_type": "spacecraft",
+  "duration_days": 7,
+  
+  "spacecraft": {
+    "name": "CubeSat-3U",
+    "mass_kg": 5.0,
+    "battery_capacity_wh": 20.0,
+    "min_soc": 0.20,
+    "max_soc": 1.0,
+    "storage_capacity_mb": 1000.0,
+    "max_slew_rate": 5.0,
+    "observation_power": 5.0,
+    "downlink_power": 8.0,
+    "idle_power": 2.0,
+    "observation_data_size": 50.0,
+    "downlink_rate": 2.0,
+    "solar_panel_area_m2": 0.03,
+    "solar_efficiency": 0.28
+  },
+  
+  "orbit": {
+    "type": "circular_LEO",
+    "altitude_km": 550,
+    "inclination_deg": 53.0,
+    "RAAN_deg": 0.0,
+    "true_anomaly_deg": 0.0,
+    "epoch": "2025-01-01T00:00:00Z"
+  },
+  
+  "ground_targets": [
+    {
+      "id": "target_nyc",
+      "name": "New York City",
+      "lat": 40.7128,
+      "lon": -74.0060,
+      "priority": 10,
+      "science_value": 100.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 12.0
+    },
+    {
+      "id": "target_london",
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "priority": 8,
+      "science_value": 80.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 24.0
+    },
+    {
+      "id": "target_sydney",
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "priority": 9,
+      "science_value": 90.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 12.0
+    },
+    {
+      "id": "target_tokyo",
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "priority": 9,
+      "science_value": 85.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 12.0
+    },
+    {
+      "id": "target_cairo",
+      "name": "Cairo",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "priority": 7,
+      "science_value": 75.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 24.0
+    },
+    {
+      "id": "target_beijing",
+      "name": "Beijing",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "priority": 10,
+      "science_value": 95.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 12.0
+    },
+    {
+      "id": "target_moscow",
+      "name": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "priority": 8,
+      "science_value": 80.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 18.0
+    },
+    {
+      "id": "target_saopaulo",
+      "name": "Sao Paulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "priority": 7,
+      "science_value": 70.0,
+      "min_elevation": 30.0,
+      "min_observation_time": 30.0,
+      "min_revisit_time": 24.0
+    }
+  ],
+  
+  "ground_stations": [
+    {
+      "id": "gs_wallops",
+      "name": "Wallops Flight Facility",
+      "lat": 37.9402,
+      "lon": -75.4663,
+      "min_elevation": 10.0,
+      "max_data_rate": 2.0
+    },
+    {
+      "id": "gs_svalbard",
+      "name": "Svalbard Satellite Station",
+      "lat": 78.2298,
+      "lon": 15.3933,
+      "min_elevation": 5.0,
+      "max_data_rate": 2.0
+    },
+    {
+      "id": "gs_santiago",
+      "name": "Santiago Ground Station",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "min_elevation": 10.0,
+      "max_data_rate": 1.5
+    }
+  ],
+  
+  "constraints": {
+    "max_observations_per_day": 15,
+    "max_downlinks_per_day": 10,
+    "min_time_between_ops": 300,
+    "slew_settling_time": 10
+  },
+  
+  "objectives": {
+    "primary": "maximize_science_value",
+    "weights": {
+      "science_value": 0.7,
+      "power_efficiency": 0.2,
+      "coverage_diversity": 0.1
+    }
+  }
+}

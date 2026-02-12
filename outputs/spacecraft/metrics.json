@@ -1,0 +1,15 @@
+{
+  "mission_name": "LEO_Earth_Observation_7Day",
+  "duration_days": 7,
+  "observations_scheduled": 213,
+  "downlinks_scheduled": 86,
+  "unique_targets_observed": 7,
+  "total_targets_available": 8,
+  "coverage_percent": 87.5,
+  "total_science_value": 17525.0,
+  "total_data_observed_mb": 10650.0,
+  "total_data_downlinked_mb": 9985.0,
+  "data_return_rate_percent": 93.8,
+  "final_battery_soc": 0.988,
+  "min_battery_soc": 0.888
+}

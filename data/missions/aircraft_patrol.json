@@ -1,0 +1,55 @@
+{
+  "name": "Aircraft Patrol Mission",
+  "vehicle": {
+    "name": "UAV-1",
+    "vehicle_type": "aircraft",
+    "mass": 25.0,
+    "cross_sectional_area": 0.5,
+    "drag_coefficient": 0.3,
+    "max_speed": 30.0,
+    "max_bank_angle": 45.0,
+    "fuel_capacity": 5.0,
+    "properties": {
+      "wing_area": 2.0,
+      "C_L": 0.5,
+      "C_D_0": 0.025,
+      "k": 0.05,
+      "TSFC": 0.5,
+      "eta_prop": 0.8
+    }
+  },
+  "start_state": {
+    "time": 0.0,
+    "position": [37.7749, -122.4194, 100.0],
+    "velocity": [25.0, 0.0, 0.0],
+    "heading": 0.0,
+    "altitude": 100.0,
+    "fuel": 5.0
+  },
+  "waypoints": [
+    {
+      "id": "wp1",
+      "name": "North Point",
+      "position": [37.8050, -122.4200, 150.0],
+      "priority": 10
+    },
+    {
+      "id": "wp2",
+      "name": "East Point",
+      "position": [37.7750, -122.3900, 150.0],
+      "priority": 8
+    },
+    {
+      "id": "wp3",
+      "name": "South Point",
+      "position": [37.7500, -122.4100, 120.0],
+      "priority": 9
+    }
+  ],
+  "max_duration": 3600.0,
+  "return_to_start": true,
+  "objectives": {
+    "minimize_time": 1.0,
+    "minimize_fuel": 0.5
+  }
+}

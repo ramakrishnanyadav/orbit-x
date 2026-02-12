@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp_*
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files (optional - keep outputs for demo)
+# outputs/*.png
+# outputs/*.html
+
+# Submission archives (don't push these)
+*.zip
+!data/**/*.zip
+
+# Executables and scripts
+*.exe
+*.ps1
+
+# Local configuration
+*.local.md
+.env
