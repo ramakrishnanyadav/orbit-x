@@ -28,7 +28,7 @@ ORBIT-X is a research-grade mission planning framework that provides a **unified
 
 ```bash
 # Clone repository
-git clone https://github.com/your-team/orbit-x.git
+git clone https://github.com/ramakrishnanyadav/orbit-x.git
 cd orbit-x
 
 # Install dependencies
@@ -278,25 +278,25 @@ Yadav, R. (2026). ORBIT-X: Unified Mission Planning Framework for UAVs and Space
 AeroHack 2026. https://github.com/ramakrishnanyadav/orbit-x
 ```
 
-## License
-
-MIT License - See LICENSE file for details
-
----
-
 ## Author
 
 **Ramakrishnan Yadav**  
-- Email: ramakrishnanyadav2004@gmail.com
-- GitHub: [@ramakrishnanyadav](https://github.com/ramakrishnanyadav)
-- Repository: [orbit-x](https://github.com/ramakrishnanyadav/orbit-x)
+📧 Email: ramakrishnanyadav2004@gmail.com  
+🔗 GitHub: [@ramakrishnanyadav](https://github.com/ramakrishnanyadav)  
+📦 Repository: [orbit-x](https://github.com/ramakrishnanyadav/orbit-x)
 
-**Contributions:**
+### Contributions
 - System Architecture & Unified Framework
 - Spacecraft Orbital Mechanics & Scheduling (87.5% coverage achieved)
-- Aircraft A* Path Planning
+- Aircraft A* Path Planning  
 - Monte Carlo Validation & Robustness Analysis
 - Complete Documentation & Visualization
+
+---
+
+## License
+
+MIT License - See LICENSE file for details
 
 ---
 
@@ -307,7 +307,7 @@ If you use ORBIT-X in your research, please cite:
 ```bibtex
 @software{orbitx2025,
   title={ORBIT-X: Unified Aerospace Mission Planning Platform},
-  author={Your Team},
+  author={Ramakrishnan Yadav},
   year={2025},
   url={https://github.com/your-team/orbit-x}
 }
