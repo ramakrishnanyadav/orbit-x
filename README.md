@@ -266,18 +266,37 @@ We welcome contributions! Areas for enhancement:
 
 ---
 
+## Acknowledgments
+
+Developed for **AeroHack 2026** - Advanced Aerospace Mission Planning Challenge
+
+## Citation
+
+If you use this work, please cite:
+```
+Yadav, R. (2026). ORBIT-X: Unified Mission Planning Framework for UAVs and Spacecraft.
+AeroHack 2026. https://github.com/ramakrishnanyadav/orbit-x
+```
+
 ## License
 
-MIT License - see [LICENSE](LICENSE) file.
+MIT License - See LICENSE file for details
 
 ---
 
-## Team
+## Author
 
-- **[Name 1]** - System Architecture, MILP Optimization
-- **[Name 2]** - Spacecraft Dynamics, Orbital Mechanics
-- **[Name 3]** - Aircraft Modeling, Validation
-- **[Name 4]** - Visualization, Documentation
+**Ramakrishnan Yadav**  
+- Email: ramakrishnanyadav2004@gmail.com
+- GitHub: [@ramakrishnanyadav](https://github.com/ramakrishnanyadav)
+- Repository: [orbit-x](https://github.com/ramakrishnanyadav/orbit-x)
+
+**Contributions:**
+- System Architecture & Unified Framework
+- Spacecraft Orbital Mechanics & Scheduling (87.5% coverage achieved)
+- Aircraft A* Path Planning
+- Monte Carlo Validation & Robustness Analysis
+- Complete Documentation & Visualization
 
 ---
 
