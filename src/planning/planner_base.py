@@ -6,7 +6,10 @@ from abc import ABC, abstractmethod
 from typing import List, Optional
 import time
 
-from ..core.models import Mission, MissionResult, State
+try:
+    from core.models import Mission, MissionResult, State
+except ImportError:
+    from ..core.models import Mission, MissionResult, State
 
 
 class Planner(ABC):
